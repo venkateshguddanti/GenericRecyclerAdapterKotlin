@@ -45,7 +45,7 @@ abstract class GenericAdapter<T>(val listItems: List<T>) : RecyclerView.Adapter<
 
     protected abstract fun getLayoutId(position : Int,type : T): Int
 
-    internal interface Binder<T>
+     interface Binder<T>
     {
         fun bind(data:T)
     }
