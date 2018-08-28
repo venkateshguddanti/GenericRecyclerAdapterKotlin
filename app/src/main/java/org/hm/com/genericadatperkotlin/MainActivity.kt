@@ -17,22 +17,22 @@ class MainActivity : AppCompatActivity() {
 
         recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
 
-        val adapter = object : GenericAdapter<Product>(listOf(Product("one","url"),
-                Product("one","url"),
-                Product("one","url"),
-                Product("one","url"),Product("one","url"))){
+       /* val adapter = object : GenericAdapter<Pro>(listOf(Pro("one","url"),
+                Pro("one","url"),
+                Pro("one","url"),
+                Pro("one","url"),Pro("one","url"))){
             override fun getViewHolder(view: View, viewType: Int): RecyclerView.ViewHolder {
 
-                       return ProductHolder(view)
+                       return Holder(view)
             }
 
-            override fun getLayoutId(position: Int, type: Product): Int {
+            override fun getLayoutId(position: Int, type: Pro): Int {
                 return R.layout.list_item_product
             }
 
         }
         recyclerView.layoutManager = GridLayoutManager(this,2)
         recyclerView.setHasFixedSize(true)
-        recyclerView.adapter = adapter
+        recyclerView.adapter = adapter*/
     }
 }
