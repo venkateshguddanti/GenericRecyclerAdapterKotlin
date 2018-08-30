@@ -40,7 +40,7 @@ When ever you want to use adapter use the follwoing snippet in your activity/fra
 
 ```
 
-Your viewholder code is as follows
+Your viewholder code is as fallows
 
 ```
 class YourHolder RecyclerView.ViewHolder,GenericAdapter.Binder<YourDataModel>
